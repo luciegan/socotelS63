@@ -1,12 +1,12 @@
 #include <DFRobot_DF1101S.h>
 #include <SoftwareSerial.h>
 
-const int trigPin = 13;
-const int echoPin = 12;
-const int socotelPin = 5;
+const int trigPin = 13; // Broche TRIG du capteur
+const int echoPin = 12; // Broche ECHO du capteur
+const int socotelPin = 5; // Broche S11
 const int ledPin = LED_BUILTIN;
-const int pinImpulsion = 2;
-const int pinInterrupteur = 4;
+const int pinImpulsion = 2; // Broche SI du capteur
+const int pinInterrupteur = 4; // Broche SIII du capteur
 const int solenoidPin1 = 6;  // Broche IN1 du L293D
 const int solenoidPin2 = 7;  // Broche IN2 du L293D
 
@@ -42,6 +42,7 @@ void setup() {
     delay(1000);
   }
 
+// Initialisation des caractéristiques du DFrobot
   df1101s.setVol(10);
   Serial.print("VOL:");
   Serial.println(df1101s.getVol());
@@ -49,7 +50,7 @@ void setup() {
   df1101s.setPlayMode(df1101s.ALLCYCLE);
   Serial.print("PlayMode:");
   Serial.println(df1101s.getPlayMode());
-  df1101s.setPrompt(true);
+  df1101s.setPrompt(true); // Mettre false pour enlever les indications sonores
 }
 
 void loop() {
@@ -63,7 +64,7 @@ void verifierCombine() {
 
   if (phoneHangedUp) {
     if (combineRaccrochePrecedemment) {
-      df1101s.switchFunction(df1101s.MUSIC);
+      df1101s.switchFunction(df1101s.MUSIC); // Mettre le DFrobot en mode "music"
       df1101s.pause();
       Serial.println("Combiné raccroché : Mise en pause de la lecture audio");
     }
@@ -113,7 +114,7 @@ void numeroCadran() {
       int chiffreCompose = convertirEnChiffre(nombreImpulsions);
       Serial.print("Chiffre composé : ");
       Serial.println(chiffreCompose);
-    
+
       if (chiffreCompose < 4) {
         cadranPlay();
         combineRaccrochePrecedemment = false;
@@ -132,7 +133,7 @@ void cadranPlay() {
   df1101s.switchFunction(df1101s.MUSIC);
   delay(500);
 
-  // Générer un nombre aléatoire entre 1 et 10
+  // Générer un nombre aléatoire entre 1 et 10 qui correspond au 10 enregistrements après le premier. L'enregistrement 0 étant le message d'intro
   int fichierAleatoire = random(1, 11);
 
   // Jouer le fichier audio spécifique généré aléatoirement
@@ -155,10 +156,9 @@ void cadranPlay() {
   Serial.println("Fin de la lecture audio.");
 }
 
-
-
 void cadranRecord() {
-  df1101s.switchFunction(df1101s.RECORD);
+  
+  df1101s.switchFunction(df1101s.RECORD); // Mettre le DFrobot en mode "record"
   delay(2000);
   df1101s.start();
   Serial.println("Début de l'enregistrement...");
@@ -210,12 +210,12 @@ void moveSolenoid() {
     // Inverser la polarité
     digitalWrite(solenoidPin1, HIGH);
     digitalWrite(solenoidPin2, LOW);
-    delay(100);  // Attendre une seconde
+    delay(100);  // Mettre la valeur souhaitée
 
     // Inverser à nouveau la polarité
     digitalWrite(solenoidPin1, LOW);
     digitalWrite(solenoidPin2, HIGH);
-    delay(100);  // Attendre une seconde
+    delay(100);  // Mettre la valeur souhaitée
   }
 }
 
