@@ -1,4 +1,4 @@
-### Préambule
+## Préambule
 Tout d'abord, cette réalisation s'inspire largement des recherches et de la réalisation de [ThomasChappe](https://github.com/ThomasChappe/S63_Arduino) qui s'inspire lui-même du prototype de [Cyril Jovet](https://github.com/sun-exploit) qui s'est sans doute inspiré du code de [revolunet](https://github.com/revolunet/s63). Un grand grand merci à eux !
 La solution utilisée pour faire sonner le téléphone est celle de [Alastair Aitchison](https://www.youtube.com/watch?v=cZ2rHqBXO1s), une réelle source d'inspiration !
 Les connaissances et les conseils avisés de Raphaël Durand ont été précieux pour franchir les obstacles de mon ignorance.
@@ -6,7 +6,7 @@ Pour le code, de longs échanges avec chatGPT ont été nécessaires.
 
 Pour info, je suis débutante dans ce domaine et je n'ai pas de formation particulière ni en programmation, ni en électronique, ni en électricité. Je partage cette expérience en ne garantissant aucunement que ce soit la méthode la plus simple ou la plus optimisée. Mais ça fonctionne et c'est déjà pas si mal. 
 
-### Synthétisation
+## Synthétisation
 
 Le téléphone est configuré pour enregistrer et lire des messages vocaux. Lorsqu'une personne passe devant le téléphone, celui-ci détecte sa présence et déclenche la sonnerie. Lorsque la personne décroche le combiné, elle est accueillie par un message pré-enregistré qui lui expose les différentes options disponibles. Ces options sont sélectionnables à l'aide d'un cadran rotatif.
 
@@ -21,7 +21,7 @@ Le téléphone est configuré pour enregistrer et lire des messages vocaux. Lors
         - Si l'utilisateur choisit l'option 2, il est invité à enregistrer un nouveau message.
 - **Retour au message d'introduction :** Après que l'utilisateur ou l'utilisatrice ait effectué son choix et accompli l'action correspondante, le téléphone revient au message d'introduction pour une nouvelle interaction.
 
-### Matériel
+## Matériel
 Voici la liste du matériel utilisé en plus des fils électriques :
 
 **éléments de base :**
@@ -87,7 +87,7 @@ J'ai fait des tas de recherches sur le fonctionnement de la sonnerie du Socotel 
 
 Finalement, on va utiliser ce module pour inverser les courants dans les broches S15 et S17 du socotel.
 
-### LES BRANCHEMENTS
+## Les branchements
 
 **ATTENTION : il faut enlever la partie métallique qui relie la broche S11 et S17**
 
@@ -114,7 +114,7 @@ Voici un schéma où les proportions ont disparu où alors, les piles 9V règner
 ![Image](https://github.com/users/luciegan/projects/1/assets/165783651/b63b531d-1142-4346-8207-38f391cd8dd9)
 
 
-### Le code
+## Le code
 
 Il est ici : [code socotel S63](https://github.com/luciegan/socotelS63.git)
 
