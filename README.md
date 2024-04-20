@@ -14,11 +14,11 @@ Le téléphone est configuré pour enregistrer et lire des messages vocaux. Lors
 - **Activation de la sonnerie du téléphone :** Une fois qu'une personne est détectée, le téléphone commence à sonner pour attirer l'attention.
 - **Message d'introduction lors du décrochage du combiné :** Lorsque le combiné est décroché, un message d'introduction est automatiquement lancé pour guider l'utilisateur ou l'utilisatrice.
 - **Choix multiples avec le cadran rotatif :** Le téléphone propose plusieurs options à l'utilisateur ou l'utilisatrice via un cadran rotatif :
-        - Option 1 : Écouter un ancien message de manière aléatoire.
-        - Option 2 : Laisser un nouveau message.
+  - Option 1 : Écouter un ancien message de manière aléatoire.
+  - Option 2 : Laisser un nouveau message.
 - **Action en fonction du choix de l'utilisateur ou de l'utilisatrice :**
-        - Si l'utilisateur choisit l'option 1, le téléphone sélectionne aléatoirement un ancien message à écouter.
-        - Si l'utilisateur choisit l'option 2, il est invité à enregistrer un nouveau message.
+  - Si l'utilisateur choisit l'option 1, le téléphone sélectionne aléatoirement un ancien message à écouter.
+  - Si l'utilisateur choisit l'option 2, il est invité à enregistrer un nouveau message.
 - **Retour au message d'introduction :** Après que l'utilisateur ou l'utilisatrice ait effectué son choix et accompli l'action correspondante, le téléphone revient au message d'introduction pour une nouvelle interaction.
 
 ## Matériel
