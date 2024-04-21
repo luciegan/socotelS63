@@ -56,20 +56,26 @@ Vous remarquerez que j'ai enlevé la jointure métallique entre S11 et S17.
 <img src="https://github.com/users/luciegantois/projects/1/assets/165783651/1c914f69-87ef-4087-84ee-4c7aab5919b2"  width="100"/>
 <br>
 <br>
-**Le combiné**
+
+**Le combiné**<br>
 Le décrochage/raccrochage se réalise par le biais d'un interrupteur entre S7 et S11.
-**Les écouteurs**
+
+**Les écouteurs**<br>
 Les écouteurs principaux du combiné sont connectés respectivement en S3 et en S5.
 Les écouteurs supplémentaires sont connectés en S2 et S4.
-**Le micro**
+
+**Le micro**<br>
 Les fils du micro sont reliés en S1 et S7
-**Le cadran**
+
+**Le cadran**<br>
 La SI transmet les impulsions.
 Les SII et SIII agissent comme un interrupteur pour détecter si le cadran est en mouvement ou non.
 La SIV, j'ai pas bien compris à quoi elle servait, je crois que c'est pour l'alimentation du cadran.
-**L'alimentation**
+
+**L'alimentation**<br>
 Si j'ai bien compris, elle se fait en S11 et S13
-**La sonnerie** 
+
+**La sonnerie** <br>
 C'est assez flou pour moi mais je crois qu'elle se fait en aussi en S11 et S13 mais qu'on peut en rajouter une en S15 et S17.
 
 Pour le projet, nous n'utiliserons pas toutes les broches et on détournera certaines d'entre elles de leur fonction initiale.
