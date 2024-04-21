@@ -49,12 +49,13 @@ J'ai également essayé de mettre les couleurs qui correspondent au fils.
 Vous pouvez cliquer sur les images pour les agrandir.
 Vous remarquerez que j'ai enlevé la jointure métallique entre S11 et S17.
 
+
+<img src="https://github.com/users/luciegantois/projects/1/assets/165783651/5da8a779-1179-4590-ace8-6a6cc0c0e1f3" width="100"/>
+
 <br>
-<img src="https://github.com/users/luciegan/projects/1/assets/165783651/a05c771d-c497-496b-893c-664a7c8acb3b" width="100"/>
-
-<img src="https://github.com/users/luciegan/projects/1/assets/165783651/b1855f41-84f8-4830-a84f-69253280f23a" width="100"/>
-
-<br><br>
+<img src="https://github.com/users/luciegantois/projects/1/assets/165783651/1c914f69-87ef-4087-84ee-4c7aab5919b2"  width="100"/>
+<br>
+<br>
 **Le combiné**
 Le décrochage/raccrochage se réalise par le biais d'un interrupteur entre S7 et S11.
 **Les écouteurs**
@@ -111,13 +112,7 @@ SPK+ | - | S5 | - | -
 
 Voici un schéma où les proportions ont disparu où alors, les piles 9V règneraient sur le monde !
 
-
-
-![Image](https://github.com/users/luciegan/projects/1/assets/165783651/a479cd0e-5448-4955-8f0f-0dd856876251)
-
-
-
-
+![Image](https://github.com/users/luciegantois/projects/1/assets/165783651/6da0b19e-837f-458f-8347-241b520d2571)
 
 
 ## Le code
