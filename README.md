@@ -119,8 +119,7 @@ SPK+ | - | S5 | - | -
 Voici un schéma où les proportions ont disparu où alors, les piles 9V règneraient sur le monde !
 
 
-![Image](https://github.com/users/luciegantois/projects/1/assets/165783651/c71ae247-e507-4fc2-87ac-1f2664c0bf47)
-
+![Image](https://github.com/users/luciegantois/projects/1/assets/165783651/0722dff0-c46e-4dc8-a59b-cbabbdb258ef)
 
 ## Le code
 
